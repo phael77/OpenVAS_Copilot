@@ -1,6 +1,6 @@
 IP,Hostname,Port,Port Protocol,CVSS,Severity,QoD,Solution Type,NVT Name,Summary,Specific Result,NVT OID,CVEs,Task ID,Task Name,Timestamp,Result ID,Impact,Solution,Affected Software/OS,Vulnerability Insight,Vulnerability Detection Method,Product Detection Result,BIDs,CERTs,Other References
       XXX-XXX-XXX-XXX,,80,tcp,5.3,Medium,80,"Mitigation","Apache HTTP Server /server-status Accessible (HTTP)","Requesting the URI /server-status provides information on the
-  server activity and performance.","Vulnerable URL: http://192.168.0.110/server-status
+  server activity and performance.","Vulnerable URL: http://XXX-XXX-XXX-XXX/server-status
 ",1.3.6.1.4.1.25623.1.0.10677,"CVE-2020-25073",238190f7-2de8-46c7-aa1e-7c5213f380a8,"Immediate scan of IP",2024-11-08T15:05:44Z,dc55a92b-e04e-429b-afcc-b7d9daf0e205,"Requesting the URI /server-status gives throughout information
   about the currently running Apache to an attacker.","'- If this feature is unused commenting out the appropriate
   section in the web servers configuration is recommended
