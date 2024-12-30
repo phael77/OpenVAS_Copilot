@@ -4,3 +4,10 @@ sentence-transformers
 faiss-cpu
 pinecone-client
 pydantic
+langchain
+langchain-openai
+langchain-community
+langchain-core
+pandas
+pdfplumber
+httpx
